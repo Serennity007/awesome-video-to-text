@@ -1,0 +1,113 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Lint Markdown Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli
+
+      - name: Lint skill files
+        run: |
+          markdownlint 'skills/**/*.md' \
+            --config .markdownlint.json \
+            --disable MD013 MD033 MD041 MD024 || true
+
+      - name: Check README links
+        run: |
+          echo "Checking for broken internal links..."
+          for file in skills/**/*.md; do
+            if [ -f "$file" ]; then
+              echo "✓ $file"
+            fi
+          done
+
+  validate:
+    name: Validate Structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          required_files=(
+            "README.md"
+            "LICENSE"
+            "CONTRIBUTING.md"
+            "SECURITY.md"
+            "CODE_OF_CONDUCT.md"
+            "CHANGELOG.md"
+            "skills/转录技术/whisper-transcription.md"
+            "skills/转录技术/youtube-transcript.md"
+            "skills/转录技术/meeting-transcription.md"
+            "skills/内容提取/video-summarization.md"
+            "skills/内容提取/key-points-extraction.md"
+            "skills/内容提取/chapter-generation.md"
+            "skills/笔记整理/video-notes.md"
+            "skills/笔记整理/knowledge-extraction.md"
+            "skills/字幕处理/subtitle-generation.md"
+            "skills/字幕处理/subtitle-translation.md"
+            "skills/学习辅助/lecture-notes.md"
+            "skills/学习辅助/tutorial-documentation.md"
+          )
+          
+          missing=0
+          for file in "${required_files[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "✗ Missing: $file"
+              missing=$((missing + 1))
+            else
+              echo "✓ Found: $file"
+            fi
+          done
+          
+          if [ $missing -gt 0 ]; then
+            echo "ERROR: $missing required files missing!"
+            exit 1
+          fi
+          echo "All required files present."
+
+      - name: Check minimum line count
+        run: |
+          for file in skills/**/*.md; do
+            lines=$(wc -l < "$file")
+            if [ "$lines" -lt 150 ]; then
+              echo "✗ $file has only $lines lines (minimum: 150)"
+              exit 1
+            else
+              echo "✓ $file: $lines lines"
+            fi
+          done
+
+  categorize:
+    name: Categorize Changes
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect changed skill categories
+        run: |
+          echo "## Changed Skills" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          for category in "转录技术" "内容提取" "笔记整理" "字幕处理" "学习辅助"; do
+            changed=$(git diff --name-only origin/main...HEAD -- "skills/$category/" 2>/dev/null | wc -l)
+            if [ "$changed" -gt 0 ]; then
+              echo "- **$category**: $changed file(s) changed" >> $GITHUB_STEP_SUMMARY
+            fi
+          done

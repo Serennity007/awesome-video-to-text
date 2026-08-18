@@ -1,0 +1,45 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output files
+*.srt
+*.vtt
+*.ass
+*.txt
+!README.md
+!CONTRIBUTING.md
+
+# Temporary
+*.tmp
+*.log
+*.bak
+.cache/
