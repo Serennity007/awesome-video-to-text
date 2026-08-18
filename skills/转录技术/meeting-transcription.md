@@ -565,7 +565,7 @@ if __name__ == "__main__":
 ## Pro Tips
 
 - **Record at 16kHz mono WAV**: Best quality for speech recognition
-- **Use WhisperX**: Combines transcription and diarization seamlessly
+- **Use WhisperX**: Combines transcription and diarization smoothly
 - **Set speaker count**: Knowing the number of speakers improves accuracy
 - **Create a vocabulary list**: Names and technical terms improve recognition
 - **Use VAD**: Skip silence to speed up processing
