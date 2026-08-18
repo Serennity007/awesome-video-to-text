@@ -235,7 +235,7 @@ Return ONLY valid JSON."""},
         response = self.llm.chat.completions.create(
             model=self.llm_model,
             messages=[
-                {"role": "system", "content": f"""Create comprehensive tutorial documentation.
+                {"role": "system", "content": f"""Create complete tutorial documentation.
 Target audience: {audience}
 
 Format:

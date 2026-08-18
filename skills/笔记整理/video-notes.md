@@ -329,14 +329,14 @@ def generate_study_guide(
     include_quiz: bool = True,
     model: str = "gpt-4o"
 ) -> str:
-    """Generate a comprehensive study guide."""
+    """Generate a complete study guide."""
     
     client = OpenAI()
     
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": """Create a comprehensive study guide from this lecture transcript.
+            {"role": "system", "content": """Create a complete study guide from this lecture transcript.
 
 Include:
 1. **Overview**: Brief summary of the lecture

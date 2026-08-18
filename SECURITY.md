@@ -28,7 +28,7 @@ This project contains documentation and code templates for video-to-text process
 - API key exposure in example scripts
 - Dependency vulnerabilities in Python packages
 
-## Best Practices for Users
+## Proven Patterns for Users
 
 - Never hardcode API keys in scripts
 - Use virtual environments to isolate dependencies

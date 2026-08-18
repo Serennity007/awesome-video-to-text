@@ -1,6 +1,6 @@
 # Lecture and Course Note-Taking
 
-Create comprehensive study materials from educational videos using evidence-based learning techniques like active recall, spaced repetition, and the Cornell method.
+Create complete study materials from educational videos using evidence-based learning techniques like active recall, spaced repetition, and the Cornell method.
 
 ## When to Use
 
@@ -79,7 +79,7 @@ result = model.transcribe("lecture.mp4", language="en")
 
 ```python
 #!/usr/bin/env python3
-"""Generate comprehensive lecture notes with study materials."""
+"""Generate complete lecture notes with study materials."""
 
 import whisper
 import json

@@ -1,6 +1,6 @@
 # Contributing to Awesome Video to Text
 
-Thank you for your interest in contributing! This project aims to be the most comprehensive collection of AI skills for video-to-text processing.
+Thank you for your interest in contributing! This project aims to be the most complete collection of AI skills for video-to-text processing.
 
 ## How to Contribute
 
