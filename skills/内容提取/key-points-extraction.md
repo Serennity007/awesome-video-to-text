@@ -473,4 +473,4 @@ python key_points_extractor.py --video 讲座.mp4 --language zh
 
 1. 使用 `spacy` 中文模型进行关键词提取
 2. 在 LLM 提示中明确要求中文输出
-3. 中文引言提取需要注意标点符号处理
+3. 中文引言提取注意标点符号处理
