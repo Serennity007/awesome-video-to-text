@@ -13,11 +13,11 @@ n<div align="center">
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-12-blue)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-13-blue)](#skills)
 
 **Turn any video into structured text.**
 
-12 AI skills for transcription, summarization, notes, and subtitles.
+13 AI skills for transcription, summarization, notes, and subtitles.
 
 </div>
 
@@ -72,6 +72,7 @@ This repository is a curated collection of **AI skills** that extract content fr
 |-------|-------------|--------------|
 | [Subtitle Generation](skills/字幕处理/subtitle-generation.md) | Automatic subtitle generation | SRT/ASS/VTT formats, style customization, timing sync |
 | [Subtitle Translation](skills/字幕处理/subtitle-translation.md) | Subtitle translation | Bilingual subtitles, cultural adaptation, timing adjust |
+| [OrkasVideoStudio Transcript-Driven Editing](skills/字幕处理/orkas-transcript-driven-editing.md) | Evidence-based cuts and caption delivery from local transcripts | CLI/MCP workflow, cut evidence, subtitle QA |
 
 ### Learning Aid
 
