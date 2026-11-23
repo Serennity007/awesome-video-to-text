@@ -186,10 +186,10 @@ awesome-video-to-text/
 
 ## Siehe auch
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - KI-Skills für Videobearbeitung und -verarbeitung
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - Kuratierte Prompts für Video-KI
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - Allgemeine Sammlung von KI-Skills
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - KI-Coding-Assistent-Regeln und -Konfigurationen
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - KI-Skills für Videobearbeitung und -verarbeitung
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - Kuratierte Prompts für Video-KI
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - Allgemeine Sammlung von KI-Skills
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - KI-Coding-Assistent-Regeln und -Konfigurationen
 
 ---
 

@@ -186,10 +186,10 @@ awesome-video-to-text/
 
 ## انظر أيضًا
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - مهارات الذكاء الاصطناعي لتحرير ومعالجة الفيديو
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - توجيهات منتقاة لذكاء الفيديو الاصطناعي
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - مجموعة عامة من مهارات الذكاء الاصطناعي
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - قواعد وتكوينات مساعدي البرمجة بالذكاء الاصطناعي
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - مهارات الذكاء الاصطناعي لتحرير ومعالجة الفيديو
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - توجيهات منتقاة لذكاء الفيديو الاصطناعي
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - مجموعة عامة من مهارات الذكاء الاصطناعي
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - قواعد وتكوينات مساعدي البرمجة بالذكاء الاصطناعي
 
 ---
 

@@ -186,10 +186,10 @@ awesome-video-to-text/
 
 ## Ver también
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - Habilidades de IA para edición y procesamiento de vídeo
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - Prompts seleccionados para vídeo con IA
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - Colección general de habilidades de IA
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - Reglas y configuraciones para asistentes de IA de programación
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - Habilidades de IA para edición y procesamiento de vídeo
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - Prompts seleccionados para vídeo con IA
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - Colección general de habilidades de IA
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - Reglas y configuraciones para asistentes de IA de programación
 
 ---
 

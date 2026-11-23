@@ -1,5 +1,5 @@
 [English](README.md) | [中文](README.zh.md) | [日本語](README.ja.md) | [Français](README.fr.md) | [Español](README.es.md) | [العربية](README.ar.md) | [한국어](README.ko.md) | [Português](README.pt.md) | [Русский](README.ru.md) | [Deutsch](README.de.md)
-n<div align="center">
+<div align="center">
 
 <img src=".banner.svg" width="100%" alt="banner">
 
@@ -185,10 +185,10 @@ awesome-video-to-text/
 
 ## See Also
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - AI skills for video editing and processing
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - Curated prompts for video AI
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - General collection of AI skills
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - AI coding assistant rules and configurations
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - AI skills for video editing and processing
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - Curated prompts for video AI
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - General collection of AI skills
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - AI coding assistant rules and configurations
 
 ---
 

@@ -179,10 +179,10 @@ awesome-video-to-text/
 
 ## 相关项目
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - 视频编辑和处理的 AI 技能
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - 视频 AI 精选提示词
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - 通用 AI 技能集合
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - AI 编程助手规则和配置
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - 视频编辑和处理的 AI 技能
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - 视频 AI 精选提示词
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - 通用 AI 技能集合
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - AI 编程助手规则和配置
 
 ---
 

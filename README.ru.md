@@ -186,10 +186,10 @@ awesome-video-to-text/
 
 ## Смотрите также
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - ИИ-навыки для редактирования и обработки видео
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - Кураторские промпты для видео-ИИ
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - Общая коллекция ИИ-навыков
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - Правила и конфигурации ИИ-ассистентов для программирования
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - ИИ-навыки для редактирования и обработки видео
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - Кураторские промпты для видео-ИИ
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - Общая коллекция ИИ-навыков
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - Правила и конфигурации ИИ-ассистентов для программирования
 
 ---
 

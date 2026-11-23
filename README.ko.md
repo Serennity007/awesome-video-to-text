@@ -186,10 +186,10 @@ awesome-video-to-text/
 
 ## 관련 링크
 
-- [awesome-video-skills](https://github.com/nicekate/awesome-video-skills) - 영상 편집 및 처리를 위한 AI 스킬
-- [awesome-video-prompts](https://github.com/nicekate/awesome-video-prompts) - 영상 AI를 위한 큐레이션 프롬프트
-- [awesome-skills](https://github.com/nicekate/awesome-skills) - AI 스킬 일반 컬렉션
-- [awesome-ai-rules](https://github.com/nicekate/awesome-ai-rules) - AI 코딩 어시스턴트 규칙 및 설정
+- [awesome-video-skills](https://github.com/Serennity007/awesome-video-skills) - 영상 편집 및 처리를 위한 AI 스킬
+- [awesome-video-prompts](https://github.com/Serennity007/awesome-video-prompts) - 영상 AI를 위한 큐레이션 프롬프트
+- [awesome-skills](https://github.com/Serennity007/awesome-skills) - AI 스킬 일반 컬렉션
+- [awesome-ai-rules](https://github.com/Serennity007/awesome-ai-rules) - AI 코딩 어시스턴트 규칙 및 설정
 
 ---
 
