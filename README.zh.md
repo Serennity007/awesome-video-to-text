@@ -2,6 +2,13 @@
 
 <div align="center">
 
+<img src=".banner.svg" width="100%" alt="banner">
+
+</div>
+
+
+<div align="center">
+
 # Awesome Video to Text
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
