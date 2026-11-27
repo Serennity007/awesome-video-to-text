@@ -25,9 +25,9 @@ Generate professional subtitles for videos in multiple formats (SRT, ASS, VTT). 
 | Tool | Purpose |
 |------|---------|
 | [whisperx](https://github.com/m-bain/whisperX) | Word-level alignment |
-| [pysub2](https://github.com/tiagocordeiro/pysub2) | Subtitle manipulation |
+| [pysrt](https://github.com/byroot/pysrt) | Subtitle manipulation |
 | [aegisub](https://aegisub.org/) | Manual subtitle editing |
-| [subtitle-editor](https://github.com/nicfit/subtitleeditor) | GUI editor |
+| [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | GUI editor |
 
 ### Installation
 
