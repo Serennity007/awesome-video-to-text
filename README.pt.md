@@ -14,7 +14,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-12-blue)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-12-blue)](#habilidades)
 
 **Transforme qualquer vídeo em texto estruturado.**
 

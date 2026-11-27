@@ -14,7 +14,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-12-blue)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-12-blue)](#스킬-목록)
 
 **모든 영상을 구조화된 텍스트로 변환하세요.**
 
